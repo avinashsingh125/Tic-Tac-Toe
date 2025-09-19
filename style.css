@@ -1,0 +1,33 @@
+body{
+  height: 100vh;
+  background-color: lightskyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+.main{
+  height: 320px;
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.btn{
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  background-color: aliceblue;
+  border:hidden;
+  border-radius: 10px;
+  font-size: xx-large;
+}
+.reset{
+  height: 50px;
+  width: 120px;
+  border: hidden;
+  border-radius: 10px;
+}
