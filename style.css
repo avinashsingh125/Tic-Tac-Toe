@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(59, 117, 153);
+  background-color: rgb(13, 13, 14);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,11 +7,12 @@ body{
   gap: 50px;
 }
 .heading{
-    background-color: rgb(23, 93, 164);
+    background-color: rgb(248, 8, 48);
     color: white;
     font-family:cursive;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 1px  10px 40px rgb(212, 30, 109);
 }
 .main{
   height: 320px;
@@ -31,17 +32,39 @@ body{
   border:hidden;
   border-radius: 10px;
   font-size: xx-large;
+  transition: all 0.1s ease-in-out;
+}
+.btn:active{
+  background-color: rgb(219, 220, 220);
 }
 .reset{
   height: 50px;
-  width: 120px;
+  width: 130px;
   border: hidden;
   border-radius: 10px;
-  background-color: black;
+  font-size: larger;
+  background-color: rgb(246, 3, 3);
   color: white;
+  transition: all 0.1s ease-in-out;
+}
+.reset:active{
+  background-color: rgb(245, 241, 241);
+  color: black;
 }
 .win{
     background-color: white;
     padding: 10px;
     border-radius: 10px;
+    color: white;
+    background-color: rgb(4, 149, 26);
+    box-shadow: 1px 20px 40px green;
+    animation: scale 2s ease-in-out;
+}
+@keyframes scale{
+  from{
+    transform: scale(0.01);
+  }
+  to{
+    transform: scale(0);
+  }
 }
