@@ -1,11 +1,17 @@
 body{
-  height: 100vh;
-  background-color: lightskyblue;
+  background-color: rgb(59, 117, 153);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 100px;
+  gap: 50px;
+}
+.heading{
+    background-color: rgb(23, 93, 164);
+    color: white;
+    font-family:cursive;
+    padding: 10px;
+    border-radius: 10px;
 }
 .main{
   height: 320px;
@@ -21,6 +27,7 @@ body{
   width: 100px;
   cursor: pointer;
   background-color: aliceblue;
+  color: black;
   border:hidden;
   border-radius: 10px;
   font-size: xx-large;
@@ -30,4 +37,11 @@ body{
   width: 120px;
   border: hidden;
   border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+.win{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
